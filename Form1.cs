@@ -20,7 +20,7 @@ namespace Bai13_TinhCanChi
         private void button1_Click(object sender, EventArgs e)
         {
             string[] canArr = { "Canh ", "Tân ", "Nhâm ", "Qúy ", "Giáp ", "Ất ", "Bính ", "Đinh ", "Mậu ", "Kỵ " };
-            string[] chiArr = { "Thân", "Dậu", "Tuất", "Hợi", "Tý", "Sửu", "Dần", "Mảo", "Thìn", "Tý", "Ngọ", "Mùi" };
+            string[] chiArr = { "Thân", "Dậu", "Tuất", "Hợi", "Tý", "Sửu", "Dần", "Mảo", "Thìn", "Tỵ", "Ngọ", "Mùi" };
 
             string giatritrave = canArr[Convert.ToInt32(txtNam.Text) % 10] + chiArr[Convert.ToInt32(txtNam.Text) % 12];
             txtKQ.Text = giatritrave;
