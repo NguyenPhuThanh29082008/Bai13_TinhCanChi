@@ -25,8 +25,6 @@ namespace Bai13_TinhCanChi
             string giatritrave = canArr[Convert.ToInt32(txtNam.Text) % 10] + chiArr[Convert.ToInt32(txtNam.Text) % 12];
             txtKQ.Text = giatritrave;
 
-
-
             for (int nam = 2000; nam <= 2050; nam++)
             {
                 lstNam.Items.Add(nam + " - " + canArr[nam % 10] + chiArr[nam % 12]);

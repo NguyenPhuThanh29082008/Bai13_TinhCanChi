@@ -77,6 +77,8 @@
             // 
             // lstNam
             // 
+            this.lstNam.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.lstNam.ForeColor = System.Drawing.SystemColors.Window;
             this.lstNam.FormattingEnabled = true;
             this.lstNam.ItemHeight = 20;
             this.lstNam.Location = new System.Drawing.Point(423, 57);
@@ -104,6 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(708, 404);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.txtNam);
@@ -113,6 +116,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Crimson;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
