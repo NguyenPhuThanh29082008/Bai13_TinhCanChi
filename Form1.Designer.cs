@@ -73,6 +73,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lstNam
             // 
@@ -82,6 +83,7 @@
             this.lstNam.Name = "lstNam";
             this.lstNam.Size = new System.Drawing.Size(209, 264);
             this.lstNam.TabIndex = 4;
+            this.lstNam.SelectedIndexChanged += new System.EventHandler(this.lstNam_SelectedIndexChanged);
             // 
             // txtNam
             // 

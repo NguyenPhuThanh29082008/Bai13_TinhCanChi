@@ -30,5 +30,23 @@ namespace Bai13_TinhCanChi
         {
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void lstNam_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string[] canArr = { "Canh ", "Tân ", "Nhâm ", "Qúy ", "Giáp ", "Ất ", "Bính ", "Đinh ", "Mậu ", "Kỵ " };
+            string[] chiArr = { "Thân", "Dậu", "Tuất", "Hợi", "Tý", "Sửu", "Dần", "Mảo", "Thìn", "Tý", "Ngọ", "Mùi" };
+
+            string giatritrave = canArr[Convert.ToInt32(txtNam.Text) % 10] + chiArr[Convert.ToInt32(txtNam.Text) % 12];
+            
+            for (int nam = 2000; nam <= 2050; nam++)
+            {
+                lstNam.Items.Add (nam);
+            }
+        }
     }
 }
